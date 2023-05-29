@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  li {
+    list-style: none;
+  }
+  nav { 
+      position: fixed;
+      background-color:#b4e4ff8e ;
+      width: 100%;
+  }
+  nav ul {
+    display: block; 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  nav li {
+    font-size: 15px;
+    padding: 25px 40px;
+    height: 60px; 
+    margin: 0 10px;
+    float: left;
+  }
+  li a {
+    list-style: none;
+    text-decoration: none;
+    color: #2F58CD;
+  }
+  ul li a:hover {
+    font-weight: bolder;
+    border-bottom: 3px solid ;
+    transition: all 2s ease;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    -o-transition: all 2s ease;
+}
+  .header {
+    height: 55px;
+    top: 0;
+    position: fixed;
+    letter-spacing: 4px;
+    z-index: 10;
+  }
+  .heading{
+    padding: 150px 0 150px 0;
+    background-image: url(assets/header.jpg);
+    background-size: cover;
+    color: #B4E4FF;
+    text-align: center;
+    opacity: 0.9;
+  }
+  
+  .heading h1 {
+    font-size: 40px;
+    font-family: 'rubik iso';
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  .heading p {
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+
+main {
+  overflow: auto;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  padding: 50px 0;
+  font-family: sans-serif;
+}
+
+section h3 {
+  text-align: center;
+  padding: 20px 0;
+  color: #2F58CD;
+}
+#about p {
+  word-spacing: 2px;
+  line-height: 25px;
+  text-align: center;
+}
+.content {
+  word-spacing: 2px;
+  line-height: 25px;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  float: left;
+  padding: 15px;
+}
+#product {
+  margin-top: 20px;
+  box-shadow: 0 4px 10px 4px #B4E4FF;
+  border-radius: 10px;
+  padding: 30px;
+}
+.image {
+  max-width: 100%;
+}
+.prize {
+  color: #2F58CD;
+  font-weight: bolder;
+  font-style: italic;
+}
+.contact {
+  text-align: center;
+}
+strong {
+  color: #2F58CD;
+}
+.profile header {
+  text-align: center;
+  color: #2F58CD;
+}
+.profile img {
+  width: 180px;
+}
+aside {
+  flex: content;
+  float: right;
+  padding: 15px;
+  width: 28%;
+  text-align: left;
+  border-radius: 7px;
+  padding: 20px;
+  background-color: #b4e4ff9d;
+  margin-top: 20px;
+}
+
+.data-diri {
+  text-align: center;
+}
+.data-diri h4,th {
+  color: #2F58CD;
+  line-height: 2em;
+}
+footer{
+	padding: 30px 0;
+	background-color: #B4E4FF;
+	color: #000000;
+	text-align: center;
+}
+  @media all and (max-width: 760px) {
+    .content,
+    aside {
+      width: 100%;
+      padding: 0;
+    }
+  }
